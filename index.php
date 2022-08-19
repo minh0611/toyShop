@@ -224,44 +224,19 @@
 		<div class="songs">
 			<p>TOYS PRODUCT</p>
 	
-		</div class="product">
-			<?php
-                          
-                    $connect = mysqli_connect('localhost','root','','shoptoys');
-                    if(!$connect){
-                        echo "Failure Connect!";
-                    }
-                    
-                   
-
-                    $sql ="SELECT * FROM product";
-                           // Thực thi, truy vấn
-                    $result = mysqli_query($connect,$sql);
-                    //tìm và trả về kết quả dưới dạng 1 mảng và lấy từ dòng dl
-                    while($row_P = mysqli_fetch_array($result)) 
-                    {
-                        //lấy ra từng dòng dl truy vấn được và hiển thị
-                        $PID = $row_P['PID'];
-                        $PName = $row_P['PName'];
-                        $Genre = $row_P['Genre'];
-                        $Price = $row_P['Price'];
-                        $Img = $row_P['Img'];
-                        ?>
+	</div class="product">
                 <div class="col-md-3 col-sm-6 col-sm-10 col-12">
 					<div class="card card-product mb-3">
-						<img class="card-img-top" src="Image-Toys/<?php echo $row_P['Img']?>" style="width: 250px;height: 250px;">
+						<img class="card-img-top" src="Image-Toys/C3.jpg" style="width: 250px;height: 250px;">
 						<div class="card-body">
-							<h5 class="card-title" style="color: orange; font-family: Georgia; font-size: 18px"><?php echo $row_P['PName']?></h5>
+							<h5 class="card-title" style="color: orange; font-family: Georgia; font-size: 18px">Hot Wheel</h5>
 		                    <!--<h5 class="card-title"><?php echo $row_P['PID'] ?></h5>-->
-		                     <p style="color:green; font-size:18px"> <?php echo $row_P['Price'] ?></p>
-		                    <a href='Detail.php?id=<?php echo $PID;?>' class='btn btn-primary'>Details</a>
+		                     <p style="color:green; font-size:18px"> $ 18 </p>
+		                    <a href='Detail.php?id=' class='btn btn-primary'>Details</a>
 						</div>
 					</div>
 				</div>
 		
-			<?php
-                    }
-                    ?>
         </div>
     	</div>
 	</div>
