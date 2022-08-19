@@ -225,6 +225,7 @@
 			<p>TOYS PRODUCT</p>
 	
 	</div class="product">
+	<p>You search: Hot Wheel</p>
                 <div class="col-md-3 col-sm-6 col-sm-10 col-12">
 					<div class="card card-product mb-3">
 						<img class="card-img-top" src="Image-Toys/C3.jpg" style="width: 250px;height: 250px;">
