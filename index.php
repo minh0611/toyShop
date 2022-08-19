@@ -225,7 +225,6 @@
 			<p>TOYS PRODUCT</p>
 	
 	</div class="product">
-	<p>You search: Hot Wheel</p>
                 <div class="col-md-3 col-sm-6 col-sm-10 col-12">
 					<div class="card card-product mb-3">
 						<img class="card-img-top" src="Image-Toys/C3.jpg" style="width: 250px;height: 250px;">
@@ -233,6 +232,42 @@
 							<h5 class="card-title" style="color: orange; font-family: Georgia; font-size: 18px">Hot Wheel</h5>
 		                    <!--<h5 class="card-title"><?php echo $row_P['PID'] ?></h5>-->
 		                     <p style="color:green; font-size:18px"> $ 18 </p>
+		                    <a href='Detail.php?id=' class='btn btn-primary'>Details</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-sm-10 col-12">
+					<div class="card card-product mb-3">
+						<img class="card-img-top" src="Image-Toys/C1.jpg" style="width: 250px;height: 250px;">
+						<div class="card-body">
+							<h5 class="card-title" style="color: orange; font-family: Georgia; font-size: 18px">Robot</h5>
+		                    <!--<h5 class="card-title"><?php echo $row_P['PID'] ?></h5>-->
+		                     <p style="color:green; font-size:18px"> $ 54 </p>
+		                    <a href='Detail.php?id=' class='btn btn-primary'>Details</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-sm-10 col-12">
+					<div class="card card-product mb-3">
+						<img class="card-img-top" src="Image-Toys/C4.jpg" style="width: 250px;height: 250px;">
+						<div class="card-body">
+							<h5 class="card-title" style="color: orange; font-family: Georgia; font-size: 18px">Castle Lego</h5>
+		                    <!--<h5 class="card-title"><?php echo $row_P['PID'] ?></h5>-->
+		                     <p style="color:green; font-size:18px"> $ 25 </p>
+		                    <a href='Detail.php?id=' class='btn btn-primary'>Details</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-sm-10 col-12">
+					<div class="card card-product mb-3">
+						<img class="card-img-top" src="Image-Toys/C8.jpg" style="width: 250px;height: 250px;">
+						<div class="card-body">
+							<h5 class="card-title" style="color: orange; font-family: Georgia; font-size: 18px">Stadium Lego (Size: L)</h5>
+		                    <!--<h5 class="card-title"><?php echo $row_P['PID'] ?></h5>-->
+		                     <p style="color:green; font-size:18px"> $ 99 </p>
 		                    <a href='Detail.php?id=' class='btn btn-primary'>Details</a>
 						</div>
 					</div>
