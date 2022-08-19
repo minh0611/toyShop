@@ -13,7 +13,7 @@
 		
 		.navbar-brand {
 			font-family: Lobster;
-			font-size: 40px;
+			font-size: 39px;
 			color: #fff;
 		}
 
